@@ -1,9 +1,6 @@
-const player = {
-    name: "SW",
-    points: 10,
-    fat: true,
-};
-console.log(player);
+const title = document.querySelector(".hello:first-child h1");
 
-player.lastname = "YOUN"
-console.log(player);
+console.log(title)
+
+title.innerText = "Hello"
+
