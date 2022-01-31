@@ -1,0 +1,74 @@
+.background{
+    background-image: url('https://2022-01-newyear.s3.ap-northeast-2.amazonaws.com/bg_default.png');
+    background-position: center;
+    background-size: cover;
+
+    width: 100vw;
+    height: 100vh;
+    max-width: 450px;
+    margin:auto;
+}
+body, h1, p{
+    margin: 0;
+}
+
+.title{
+    color:#3f3732;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 5vh;
+}
+
+.title>h1{
+    background-color: white;
+    font-size: 22px;
+    padding: 8px 16px;
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
+
+.title>p>span{
+    font-size: 20px;
+}
+
+    @font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://2022-01-newyear.s3.ap-northeast-2.amazonaws.com/Cafe24Ssurround.woff') format('woff');
+}
+
+* {
+    font-family: 'Cafe24Ssurround';
+}
+
+.btn{
+    
+    background-color:#3f3732;
+    color: white;
+
+    font-size: 18px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    cursor:pointer;
+
+    position: fixed;
+    bottom:16px;
+    left:calc(50% - 150px);
+
+}
+
+.box>img{
+    width:70px;
+    position: absolute;
+    bottom: 50%;
+    left:20%
+}

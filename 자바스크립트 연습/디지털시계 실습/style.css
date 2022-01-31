@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-size: 32px;
+}
+
+body {
+    margin: 0;
+    color: white;
+    background-color: black;
+    background-image: url(https://t1.daumcdn.net/cfile/tistory/993F443E5D10D2ED1C);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    min-width: 360px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.today {
+    margin-bottom: 10px;
+
+}
+.time {
+    margin-top: 10px
+}
+
