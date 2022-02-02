@@ -3,7 +3,7 @@ const timeDiv = document.getElementById("time")
 
 function getTime() {
     let now = new Date();
-    timeDiv.textContent = now;
+    //timeDiv.textContent = now;
     let year = now.getFullYear()
     let month = now.getMonth() + 1
     let date = now.getDate()
