@@ -1,6 +1,20 @@
+* {
+    box-sizing: border-box;
+    font-size: 32px;
+}
 .hidden{
     display: none;
 }
+
 body{
-    background-image: url();
+    margin: 0;
+    color: black;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
